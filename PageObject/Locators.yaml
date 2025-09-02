@@ -1,1 +1,179 @@
+LoginPage:
+    SignIn: "Sign In"
+    txt_loginUserName: "name:username"
+    txt_loginPassword: "name:password"
+    btn_signIn: "name:signon"
+    signout: "xpath://*[@id='MenuContent']/a[2]"
 
+Registration:
+    register_now: "Register Now!"
+    txt_UserId: "name:username"
+    txt_NewPassword: "name:password"
+    txt_RepeatPassword: "name:repeatedPassword"
+    txt_FirstName: "name:account.firstName"
+    txt_LastName: "name:account.lastName"
+    txt_Email: "name:account.email"
+    txt_Phone: "name:account.phone"
+    txt_Address1: "name:account.address1"
+    txt_Address2: "name:account.address2"
+    txt_City: "name:account.city"
+    txt_State: "name:account.state"
+    txt_Zip: "name:account.zip"
+    txt_Country: "name:account.country"
+    txt_SaveInfo: "name:newAccount"
+    myAccount: "My Account"
+    language: "name:account.languagePreference"
+    favourite: "name:account.favouriteCategoryId"
+    EnableMyList: "name:account.listOption"
+    EnableMyBanner: "name:account.bannerOption"
+    txt_myAccountInfo: "name:editAccount"
+    Click_myOrders: "My Orders"
+    count_Orders: "xpath://*[@id='Content']/table/tbody/tr/td[1]"
+
+SearchBox:
+    txt_search: "name:keyword"
+    btn_search: "name:searchProducts"
+    count_products: "xpath://*[@id='Catalog']/table/tbody/tr/td[2]"
+
+FooterLinks:
+    footer1: "OctoPerf"
+    hostedlink: "xpath://*[@id='PoweredBy']/a[1]"
+    poweredlink: "xpath://*[@id='PoweredBy']/a[2]"
+
+SessionHandling:
+    myAccount: "My Account"
+    Click_myOrders: "My Orders"
+
+ProfileUpdation:
+    myAccount: "My Account"
+    txt_myAccountInfo: "name:editAccount"
+    txt_Email: "name:account.email"
+    txt_FirstName: "name:account.firstName"
+
+HomePageElemets:
+    logo:   "xpath://*[@id='LogoContent']/a/img"
+    cart:   "xpath://*[@id='MenuContent']/a[1]/img"
+    help:   "?"
+    account:    "My Account"
+
+BillingAddress:
+    cardtype:   "name:order.cardType"
+    cardnumber: "name:order.creditCard"
+    expirydate:  "name:order.expiryDate"
+
+Operations:
+    updatecart: "name:updateCartQuantities"
+    addtocart: "Add to Cart"
+    proceedtocheckout: "Proceed to Checkout"
+    returntomainmenu: "Return to Main Menu"
+    Continue: "name:newOrder"
+    confirm: "Confirm"
+    quant:  "xpath://*[@id='Cart']/form/table/tbody/tr/td[5]/input"
+    rowcount:   "xpath://*[@id='Cart']/form/table/tbody/tr"
+
+ShippingAddrtess:
+    shipping:   "name:shippingAddressRequired"
+    tshiptofirstname:   "name:order.shipToFirstName"
+    tshiptolastname:    "name:order.shipToLastName"
+    tshippingaddress1:  "name:order.shipAddress1"
+    tshippingcity:  "name:order.shipCity"
+    tshippingaddress2:  "name:order.shipAddress2"
+    tshippingcountry:   "name:order.shipCountry"
+    shippingstate:  "name:order.shipState"
+    tshippingzip:   "name:order.shipZip"
+
+PetElements:
+    fish: "xpath://img[@src='../images/fish_icon.gif']"
+    dog: "xpath://img[@src='../images/dogs_icon.gif']"
+    cats:   "xpath://img[@src='../images/cats_icon.gif']"
+    reptiles:   "xpath://img[@src='../images/reptiles_icon.gif']"
+    birds:  "xpath://img[@src='../images/birds_icon.gif']"
+
+    birdsimg:   "xpath://*[@id='MainImageContent']/map/area[1]"
+    fishesimg:  "xpath://*[@id='MainImageContent']/map/area[2]"
+    dogsimg:    "xpath://*[@id='MainImageContent']/map/area[3]"
+    reptilesimg:    "xpath://*[@id='MainImageContent']/map/area[4]"
+    catsimg:    "xpath://*[@id='MainImageContent']/map/area[5]"
+    repeatedbirdsimg:   "xpath://*[@id='MainImageContent']/map/area[6]"
+
+    quicklinkfish:  "xpath://img[@src='../images/sm_fish.gif']"
+    quicklinkdogs:  "xpath://img[@src='../images/sm_dogs.gif']"
+    quicklinkreptiles:  "xpath://img[@src='../images/sm_reptiles.gif']"
+    quicklinkcats:  "xpath://img[@src='../images/sm_cats.gif']"
+    quicklinkbirds:  "xpath://img[@src='../images/sm_birds.gif']"
+
+Animals:
+    fish1:  "FI-SW-01"
+    fish2:  "FI-SW-02"
+    fish3:  "FI-SW-03"
+    fish4:  "FI-SW-04"
+
+    dog1:   "K9-BD-01"
+    dog2:   "K9-PO-02"
+    dog3:   "K9-DL-01"
+    dog4:   "K9-RT-01"
+    dog5:   "K9-RT-02"
+    dog6:   "K9-CW-01"
+
+    cat1:   "FL-DSH-01"
+    cat2:   "FL-DSH-02"
+
+    reptile1:   "RP-SN-01"
+    reptile2:   "RP-LI-02"
+
+    bird1:  "AV-CB-01"
+    bird2:  "AV-SB-02"
+
+TypesOfAnimals:
+    angelfish1: "EST-1"
+    angelfish2: "EST-2"
+    tigerfish:  "EST-3"
+    koifish1:   "EST-4"
+    koifish2:   "EST-5"
+    goldfish1:  "EST-20"
+    gildfish2:  "EST-21"
+
+    bulldog1:   "EST-6"
+    bulldog2:   "EST-7"
+    poddledog:  "EST-8"
+    golden: "EST-28"
+    labrador1:  "EST-22"
+    labrador2:  "EST-23"
+    labrador3:  "EST-24"
+    labrador4:  "EST-25"
+    dalmationdog1:  "EST-9"
+    dalmationdog2:  "EST-10"
+    chihudog1:  "EST-26"
+    chihudog2:  "EST-27"
+
+    manxcat1:   "EST-14"
+    manxcat2:   "EST-15"
+    persiancat1:    "EST-16"
+    persiancat2:    "EST-17"
+
+    rattlesnake1:   "EST-11"
+    rattlesnake2:   "EST-12"
+    iguana: "EST-13"
+
+    amazonparrot:   "EST-18"
+    finchbird:  "EST-19"
+
+ReturnButtons:
+    returnfish: "Return to FISH"
+    returndog:  "Return to DOGS"
+    returnreptiles: "Return to REPTILES"
+    returncats: "Return to CATS"
+    returnbirds:    "Return to BIRDS"
+    returntofish:   "Return to FI-SW-01"
+
+BillingandShippingData:
+    billing_name:   "name:order.billToFirstName"
+    shipping_name:  "name:order.shipToFirstName"
+    shipping_address:   "name:order.shipAddress1"
+    billing_address:    "name:order.billAddress1"
+    different_address:  "shippingAddressRequired"
+    confirm_billing:    "xpath://*[@id='Catalog']/table/tbody/tr[3]/td[2]"
+    confirm_shipping:   "xpath://*[@id='Catalog']/table/tbody/tr[12]/td[2]"
+    confirm_baddress:    "xpath://*[@id='Catalog']/table/tbody/tr[5]/td[2]"
+    confirm_saddress:   "xpath://*[@id='Catalog']/table/tbody/tr[14]/td[2]"
+    my_orders:  "My Orders"
